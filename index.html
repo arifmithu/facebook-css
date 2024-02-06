@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="yZiPcXVE"></script>
+    <!-- header starts here-->
+    <div class="header">
+        <div class="header_left">
+            <img src="assets/images/fb-logo.png">
+            <div class="search">
+                <span class="material-icons">search</span>
+                <input type="search" placeholder="Search Facebook">
+            </div>
+        </div>
+        <div class="header_middle">
+            <span class="material-icons home">home</span>
+            <span class="material-icons">flag</span>
+            <span class="material-icons">subscriptions</span>
+            <span class="material-icons">storefront</span>
+            <span class="material-icons">supervised_user_circle</span>
+        </div>
+        <div class="header_right">
+            <div class="header_info">
+                <img class="user_avatar" src="assets/images/avatar.png">
+                <h4>Kende Diyechi</h4>
+            </div>
+            <div class="right_icons">
+                <span class="material-icons">add</span>
+                <span class="material-icons">question_answer</span>
+                <span class="material-icons">notifications_active</span>
+                <span class="material-icons">expand_more</span>
+            </div>
+        </div>
+    </div>
+    <!-- header ends here-->
+    <!-- -- main body starts here-- -->
+    <div class="main_body">
+        <!-- sideBar starts here -->
+        <div class="sideBar">
+            <div class="sideBar_Row">
+                <div class="user_avatar"><img src="assets/images/avatar.png" alt=""></div>
+                <h4>Kende Diyechi</h4>
+            </div>
+            <div class="sideBar_Row">
+                <span class="material-icons">local_hospital</span>
+                <h4>Covid-19 Information</h4>
+            </div>
+            <div class="sideBar_Row">
+                <span class="material-icons">outlined_flag</span>
+                <h4>Pages</h4>
+            </div>
+            <div class="sideBar_Row">
+                <span class="material-icons">people</span>
+                <h4>People</h4>
+            </div>
+            <div class="sideBar_Row">
+                <span class="material-icons">chat</span>
+                <h4>Messenger</h4>
+            </div>
+            <div class="sideBar_Row">
+                <span class="material-icons">storefront</span>
+                <h4>Marketplace</h4>
+            </div>
+            <div class="sideBar_Row">
+                <span class="material-icons">smart_display</span>
+                <h4>Videos</h4>
+            </div>
+            <div class="sideBar_Row">
+                <span class="material-icons">expand_more</span>
+                <h4>More</h4>
+            </div>
+        </div>
+        <!-- sideBar starts here -->
+
+        <!-- newsfeed starts here -->
+    <div class="feed">
+        <!-- storyReels starts here -->
+        <div class="storyReels">
+        <!-- reel starts here-- -->
+        <div class="reel" style="background: url(assets/images/image1.jpg); background-size: cover;">
+            <div class="user_avatar">
+                <img src="assets/images/avatar.png" alt="">
+            </div>
+            <h4>Kende Diyechi</h4>
+        </div>
+        <!-- reel ends here-- -->
+        <!-- reel starts here-- -->
+        <div class="reel" style="background: url(assets/images/image3.jpg); background-size: cover;">
+            <div class="user_avatar">
+                <img src="assets/images/avatar.png" alt="">
+            </div>
+            <h4>Ranu Mondol</h4>
+        </div>
+        <!-- reel ends here-- -->
+        <!-- reel starts here-- -->
+        <div class="reel" style="background: url(assets/images/image1.jpg); background-size: cover;">
+            <div class="user_avatar">
+                <img src="assets/images/avatar.png" alt="">
+            </div>
+            <h4>Kan Helal</h4>
+        </div>
+        <!-- reel ends here-- -->
+        <!-- reel starts here-- -->
+        <div class="reel" style="background: url(assets/images/image3.jpg); background-size: cover;">
+            <div class="user_avatar">
+                <img src="assets/images/avatar.png" alt="">
+            </div>
+            <h4>Dildar</h4>
+        </div>
+        <!-- reel ends here-- -->
+         <!-- reel starts here-- -->
+         <div class="reel" style="background: url(assets/images/image1.jpg); background-size: cover;">
+            <div class="user_avatar">
+                <img src="assets/images/avatar.png" alt="">
+            </div>
+            <h4>Hero ALam</h4>
+        </div>
+        <!-- reel ends here-- -->
+         <!-- reel starts here-- -->
+         <div class="reel" style="background: url(assets/images/image3.jpg); background-size: cover;">
+            <div class="user_avatar">
+                <img src="assets/images/avatar.png" alt="">
+            </div>
+            <h4>Kabila</h4>
+        </div>
+        <!-- reel ends here-- -->
+        
+        </div>
+    <!-- storyReels ends here -->
+
+    <!-- status Bar starts here -->
+        <div class="statusBar">
+        <div class="statusBar_top">
+            <img class="user_avatar" src="assets/images/avatar.png">
+            <form action="#">
+                <input type="text" placeholder="What's on your mind?">
+            </form>
+        </div>
+        <div class="statusBar_bottom">
+            <div class="option">
+                <span style="color: red;" class="material-icons">videocam</span>
+                <h3>Live</h3>
+            </div>
+            <div class="option">
+                <span style="color: green;" class="material-icons">collections</span>
+                <h3>Photo</h3>
+            </div>
+            <div class="option">
+                <span style="color: orange;" class="material-icons">insert_emoticon</span>
+                <h3>Feeling</h3>
+            </div>
+        </div>
+        </div>
+    <!-- status Bar ends here -->
+
+    <!-- post starts here -->
+    <div class="post">
+        <div class="post_top">
+            <img class="user_avatar" src="assets/images/avatar.png" alt="">
+            <div class="post_owner">
+                <h3>Hero Alam</h3>
+                <p>25 April at 20:30</p>
+            </div>
+        </div>
+        <div class="message">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ea iusto laudantium. Vero repudiandae dolore provident explicabo. Quasi illum tenetur blanditiis quia libero, doloribus, rem assumenda excepturi esse magni doloremque nam velit exercitationem soluta. Non similique numquam et at cupiditate, perspiciatis dolor suscipit natus voluptas unde qui alias perferendis nulla ea, eveniet dolores. Numquam eos iusto tenetur vel voluptas, officiis delectus, illum magnam facilis possimus excepturi, explicabo aliquid doloribus quam! Repellat adipisci excepturi iusto a laboriosam distinctio enim totam beatae modi. Eaque recusandae excepturi voluptate, delectus temporibus tempore asperiores nobis quis numquam molestiae ratione assumenda ullam quod, adipisci, animi eius?Ami hero alam, ami mujib cinema dekhe kende diyechi onek.ashi taha tola. mui bondho horte parum na. :D </p>
+        </div>
+        <div class="post-img">
+            <img src="assets/images/post1.jpg">
+        </div>
+        <div class="underline"></div>
+        <div class="info">
+            <div class="reactions">
+                <span class="material-icons">thumb_up_off_alt</span>
+                <h3>Like</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">chat_bubble_outline</span>
+                <h3>Comment</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">reply</span>
+                <h3>Share</h3>
+            </div>
+        </div>
+    </div>
+    <div class="post">
+        <div class="post_top">
+            <img class="user_avatar" src="assets/images/avatar.png" alt="">
+            <div class="post_owner">
+                <h3>Addicted</h3>
+                <p>25 April at 20:30</p>
+            </div>
+        </div>
+        <div class="message">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ea iusto laudantium. Vero repudiandae dolore provident explicabo. Quasi illum tenetur blanditiis quia libero, doloribus, rem assumenda excepturi esse magni doloremque nam velit exercitationem soluta. Non similique numquam et at cupiditate, perspiciatis dolor suscipit natus voluptas unde qui alias perferendis nulla ea, eveniet dolores. Numquam eos iusto tenetur vel voluptas, officiis delectus, illum magnam facilis possimus excepturi, explicabo aliquid doloribus quam! Repellat adipisci excepturi iusto a laboriosam distinctio enim totam beatae modi. Eaque recusandae excepturi voluptate, delectus temporibus tempore asperiores nobis quis numquam molestiae ratione assumenda ullam quod, adipisci, animi eius?Ami hero alam, ami mujib cinema dekhe kende diyechi onek.ashi taha tola. mui bondho horte parum na. :D </p>
+        </div>
+        <!-- <div class="post-img">
+            <img src="assets/images/post1.jpg">
+        </div> -->
+        <div class="underline"></div>
+        <div class="info">
+            <div class="reactions">
+                <span class="material-icons">thumb_up_off_alt</span>
+                <h3>Like</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">chat_bubble_outline</span>
+                <h3>Comment</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">reply</span>
+                <h3>Share</h3>
+            </div>
+        </div>
+    </div>
+    <div class="post">
+        <div class="post_top">
+            <img class="user_avatar" src="assets/images/avatar.png" alt="">
+            <div class="post_owner">
+                <h3>Kan Helal</h3>
+                <p>25 April at 20:30</p>
+            </div>
+        </div>
+        <div class="message">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ea iusto laudantium. Vero repudiandae dolore provident explicabo. Quasi illum tenetur blanditiis quia libero, doloribus, rem assumenda excepturi esse magni doloremque nam velit exercitationem soluta. Non similique numquam et at cupiditate, perspiciatis dolor suscipit natus voluptas unde qui alias perferendis nulla ea, eveniet dolores. Numquam eos iusto tenetur vel voluptas, officiis delectus, illum magnam facilis possimus excepturi, explicabo aliquid doloribus quam! Repellat adipisci excepturi iusto a laboriosam distinctio enim totam beatae modi. Eaque recusandae excepturi voluptate, delectus temporibus tempore asperiores nobis quis numquam molestiae ratione assumenda ullam quod, adipisci, animi eius?Ami hero alam, ami mujib cinema dekhe kende diyechi onek.ashi taha tola. mui bondho horte parum na. :D </p>
+        </div>
+        <div class="post-img">
+            <img src="assets/images/post2.jpg">
+        </div>
+        <div class="underline"></div>
+        <div class="info">
+            <div class="reactions">
+                <span class="material-icons">thumb_up_off_alt</span>
+                <h3>Like</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">chat_bubble_outline</span>
+                <h3>Comment</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">reply</span>
+                <h3>Share</h3>
+            </div>
+        </div>
+    </div>
+    <div class="post">
+        <div class="post_top">
+            <img class="user_avatar" src="assets/images/avatar.png" alt="">
+            <div class="post_owner">
+                <h3>Rocket</h3>
+                <p>15 May at 21:33</p>
+            </div>
+        </div>
+        <div class="message">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ea iusto laudantium. Vero repudiandae dolore provident explicabo. Quasi illum tenetur blanditiis quia libero, doloribus, rem assumenda excepturi esse magni doloremque nam velit exercitationem soluta. Non similique numquam et at cupiditate, perspiciatis dolor suscipit natus voluptas unde qui alias perferendis nulla ea, eveniet dolores. Numquam eos iusto tenetur vel voluptas, officiis delectus, illum magnam facilis possimus excepturi, explicabo aliquid doloribus quam! Repellat adipisci excepturi iusto a laboriosam distinctio enim totam beatae modi. Eaque recusandae excepturi voluptate, delectus temporibus tempore asperiores nobis quis numquam molestiae ratione assumenda ullam quod, adipisci, animi eius?Ami hero alam, ami mujib cinema dekhe kende diyechi onek.ashi taha tola. mui bondho horte parum na. :D </p>
+        </div>
+        <div class="post-img">
+            <img src="assets/images/image1.jpg">
+        </div>
+        <div class="underline"></div>
+        <div class="info">
+            <div class="reactions">
+                <span class="material-icons">thumb_up_off_alt</span>
+                <h3>Like</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">chat_bubble_outline</span>
+                <h3>Comment</h3>
+            </div>
+            <div class="reactions">
+                <span class="material-icons">reply</span>
+                <h3>Share</h3>
+            </div>
+        </div>
+    </div
+    <!-- post ends here -->
+    </div>
+    <!-- newsfeed ends here -->
+    <!-- facebook widget starts here -->
+    <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="280" data-height="1000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+     <!-- facebook widget ends here -->
+    </div>
+    
+    <!-- --main body ends here-- -->
+
+    
+</body>
+</html>

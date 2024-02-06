@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    box-shadow: 0 5px 8px -5px;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.header_left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header_left img{
+    /* width: 38px; */
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header_left .search{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px;
+    background: #eff2f5;
+    border-radius: 999px;
+}
+.header_left .search input{
+    background-color: transparent;
+    outline: 0;
+    border: none;
+    z-index: .5;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.material-icons{
+    color: gray;
+}
+
+.header_middle{
+    font-size: 2.5em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header_middle .material-icons{
+    padding: 0 30px;
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    cursor: pointer;
+}
+.header_middle .material-icons:hover{
+    color: blue;
+}
+
+.header_middle .home{
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+}
+
+.header_right{
+    display: flex;
+    justify-content: space-evenly;
+}
+.user_avatar{
+    width: 45px;
+    /* height: 38px; */
+    border-radius: 50%;
+}
+.header_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.header_info h4{
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.header_right .right_icons{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 0 20px;
+}
+.right_icons .material-icons{
+    margin-right: 5px;
+}
+
+.header_right .material-icons:hover{
+    color: blue;
+}
+
+.main_body{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+}
+.sideBar{
+    padding: 20px 10px;
+}
+.sideBar_Row .user_avatar img{
+    width: 45px;
+    /* height: 38px; */
+    border-radius: 50%;
+}
+
+.sideBar_Row{
+    display: flex;
+    align-items: center;
+}
+
+.sideBar_Row .material-icons{
+    color: blue;
+}
+.sideBar_Row h4{
+    padding: 10px 20px;
+}
+
+.main_body{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.reel{
+    height: 200px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0 5px 17px -7px, rgba(0, 0, 0, 0.75);
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+.reel h4{
+    font-size: .8em;
+    color: white;
+    margin-top: 120px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+.reel:hover{
+    transform: scale(1.1);
+}
+.reel .user_avatar img{
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+.storyReels{
+    display: flex;
+}
+
+.facebook_widget{
+    padding-left: 100px;
+}
+
+.statusBar{
+    margin-top: 20px;
+    background: white;
+    border-radius: 15px;
+    padding: 5px 0px;
+    width: 100%;
+    margin-left: -5px;
+    max-width: 780px;
+}
+
+.statusBar_top{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.statusBar_top form{
+    margin-left: 10px;
+    /* width: 100%; */
+    
+}
+.statusBar_top form input{
+    width: 350%;
+    outline: none;
+    background: gainsboro;
+    border-radius: 15px;
+    border: none;
+    height: 25px;
+    padding-left: 20px;
+}
+.statusBar_bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.statusBar_bottom .option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.statusBar_bottom .option h3{
+    color: gray;
+    margin-left: 10px;
+}
+.statusBar_bottom .option:hover{
+    background-color: gainsboro;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.message p {
+    max-width: 780px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.post-img img{
+    max-width: 780px;
+    
+}
+.facebook_widget{
+    max-width: 280px;
+}
+.post_top{
+    display: flex;
+    padding: 20px 10px;
+}
+.post_owner{
+    padding-left: 10px;
+}
+
+.post{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+    max-width: 780px;
+    overflow: hidden;
+}
+.underline{
+    height: 2px;
+    max-width: 720px;
+    background: gainsboro;
+    align-items: center;justify-content: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
+
+.reactions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reactions h3{
+    padding: 0 5px;
+    color: grey;
+}
